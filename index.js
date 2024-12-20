@@ -42,10 +42,10 @@ var yellow_element = $(".yellow"),
 var ava = ["g", "r", "y", "b"];
 
 var paired = new Map([
-  ["g", ["green_press",  new Audio("./Sound/Green.wav")]],
-  ["r", ["red_press", new Audio("./Sound/Red.wav")]],
-  ["y", ["yellow_press", new Audio("./Sound/Yellow.wav")]],
-  ["b", ["blue_press", new Audio("./Sound/Blue.wav")]],
+  ["g", ["green_press",  new Audio("./Green.wav")]],
+  ["r", ["red_press", new Audio("./Red.wav")]],
+  ["y", ["yellow_press", new Audio("./Yellow.wav")]],
+  ["b", ["blue_press", new Audio("./Blue.wav")]],
 ]);
 var game_over = new Audio("./Sound/video-game-points-lost-retro-glitchedtones-1-00-01.mp3");
 
