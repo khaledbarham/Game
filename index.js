@@ -47,7 +47,7 @@ var paired = new Map([
   ["y", ["yellow_press", new Audio("./Yellow.wav")]],
   ["b", ["blue_press", new Audio("./Blue.wav")]],
 ]);
-var game_over = new Audio("./video-game-points-lost-retro-glitchedtones-1-00-01.mp3");
+var game_over = new Audio("video-game-points-lost-retro-glitchedtones-1-00-01.mp3");
 
 async function start_game(e) {
   lose = false;
